@@ -1,1 +1,1 @@
-emcc main.c -O2 -s WASM=1  -s EXPORTED_FUNCTIONS="['_add']" -o hello.html
+emcc main.c -O2 -s WASM=1  -s EXPORTED_FUNCTIONS="['_add']" -o main.js
